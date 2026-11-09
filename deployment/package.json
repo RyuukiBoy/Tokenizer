@@ -1,0 +1,27 @@
+{
+  "name": "tokenizer-42",
+  "version": "1.0.0",
+  "private": true,
+  "description": "42 School Tokenizer project for BNB Smart Chain Testnet",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy-token.js --network localhost",
+    "demo:local": "hardhat run scripts/demo-token.js --network localhost",
+    "deploy:testnet": "hardhat run scripts/deploy-token.js --network bscTestnet",
+    "verify:testnet": "hardhat run scripts/verify-token.js --network bscTestnet",
+    "demo:testnet": "hardhat run scripts/demo-token.js --network bscTestnet",
+    "multisig:deploy:testnet": "hardhat run scripts/deploy-multisig.js --network bscTestnet",
+    "multisig:verify:testnet": "hardhat run scripts/verify-multisig.js --network bscTestnet",
+    "multisig:demo:testnet": "hardhat run scripts/demo-multisig.js --network bscTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "chai": "^4.5.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.26.3"
+  }
+}

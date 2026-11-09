@@ -1,0 +1,44 @@
+{
+  "network": "bscTestnet",
+  "chainId": 97,
+  "token": {
+    "name": "Tokenizer 42",
+    "symbol": "TK42",
+    "address": "0x1be8A0534a8A0222Cd72d446Ef21E05C5c917cC7",
+    "transactionHash": "0x6981ed4a5f38495359e3ad2381e4cde26165591b5bc33e90ff57fa0b18e9700f",
+    "blockNumber": 140567400,
+    "deployedAt": "2026-11-03T11:42:28.546Z",
+    "deployer": "0x2B3EaF772dFf6753B9bc8EE155D0c75c2f126678",
+    "initialOwner": "0x2B3EaF772dFf6753B9bc8EE155D0c75c2f126678",
+    "initialSupply": "4200000000000000000000000",
+    "constructorArguments": [
+      "0x2B3EaF772dFf6753B9bc8EE155D0c75c2f126678",
+      "4200000000000000000000000"
+    ]
+  },
+  "multisig": {
+    "address": "0xb2777f0C477976DbcAF845c4C5AddC6065b21CaF",
+    "owners": [
+      "0x2B3EaF772dFf6753B9bc8EE155D0c75c2f126678",
+      "0x1663EE8d1F5D6A191656e7acf3A73c9A219e3893",
+      "0xa3078442c4cA1EB1af538d88C2CF976212C6cA48"
+    ],
+    "requiredConfirmations": 2,
+    "transactionHash": "0x85a67eb8121c00dbfbbac1b027e5c4102fd80671be87809bff70276ab05f3a25",
+    "blockNumber": 140568297,
+    "deployedAt": "2026-11-03T11:49:06.864Z",
+    "constructorArguments": [
+      [
+        "0x2B3EaF772dFf6753B9bc8EE155D0c75c2f126678",
+        "0x1663EE8d1F5D6A191656e7acf3A73c9A219e3893",
+        "0xa3078442c4cA1EB1af538d88C2CF976212C6cA48"
+      ],
+      2
+    ],
+    "ownershipTransfer": {
+      "transactionHash": "0xce1edf1237de80f8a21108ed18d46f02b67cde2966c7cf9a858053f03815c398",
+      "blockNumber": 140568301,
+      "completedAt": "2026-11-03T11:49:08.866Z"
+    }
+  }
+}
